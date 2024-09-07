@@ -1,0 +1,35 @@
+{
+  "name": "etsy-shipping-label-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tyler <tylerpharand@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "dev:watch": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "fix": "yarn lint && yarn format"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "dotenv": "^16.4.5",
+    "etsy-ts": "^4.2.0",
+    "fs-extra": "^11.2.0",
+    "zod": "^3.23.8"
+  }
+}

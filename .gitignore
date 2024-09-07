@@ -1,0 +1,8 @@
+node_modules
+.env
+.DS_Store
+.vscode/
+*.swp
+*.lock
+yarn-debug.log*
+yarn-error.log*
